@@ -1,7 +1,47 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  list-style: none;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #fceef1;
+  display: flex;
+  align-items: center;
+}
+.home-items {
+  padding-left: 200px;
+}
+
+.home-items h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.home-items p {
+  width: 70%;
+  color: gray;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-size: small;
+}
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  background-color: #fceef1;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #e55473;
+  color: #fff;
+  border-radius: 7px;
+}
+.btn:hover {
+  background-color: #292727;
 }
