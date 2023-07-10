@@ -7,8 +7,8 @@
 
 .home {
   position: relative;
-  width: 100%;
-  height: 100vh;
+  /* width: 100%;
+  height: 100vh; */
   background-color: #fceef1;
   display: flex;
   align-items: center;
@@ -31,8 +31,8 @@
   font-size: small;
 }
 .bg-image {
-  width: 100%;
-  height: 100vh;
+  width: 75%;
+  height: 75%;
   background-color: #fceef1;
 }
 .btn {
@@ -44,4 +44,77 @@
 }
 .btn:hover {
   background-color: #292727;
+}
+.fetured {
+  padding: 100px;
+}
+#rcorners1 {
+  border-radius: 150px 150px 0px 0px;
+  background: #fceef1;
+  padding: 20px;
+  width: 250px;
+  height: 297px;
+}
+#rcorners2 {
+  border-radius: 150px 150px 0px 0px;
+  background: #d9eff0;
+  padding: 20px;
+  width: 250px;
+  height: 297px;
+}
+#rcorners3 {
+  border-radius: 150px 150px 0px 0px;
+  background: #e3ebdb;
+  padding: 20px;
+  width: 250px;
+  height: 297px;
+}
+.feature-image {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#rcorners1 img {
+  padding-top: 55px;
+  padding-left: 30px;
+  width: 190px;
+  justify-content: center;
+  align-items: center;
+}
+#rcorners1 h4 {
+  padding: 35px;
+  text-decoration: underline;
+  text-align: center;
+}
+#rcorners2 img {
+  padding: 30px;
+  padding-left: 10px;
+  width: 255px;
+  justify-content: center;
+  align-items: center;
+}
+#rcorners2 h4 {
+  padding: 35px;
+  text-decoration: underline;
+  text-align: center;
+}
+#rcorners3 img {
+  padding: 33px;
+  width: 190px;
+  justify-content: center;
+  align-items: center;
+}
+#rcorners3 h4{
+  text-decoration: underline;
+  text-align: center;
+}
+.feature-text h2 {
+  text-align: center;
+}
+.feature-text p {
+  text-align: center;
+  font-size: small;
+  padding-bottom: 30px;
 }
